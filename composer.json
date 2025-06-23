@@ -1,0 +1,27 @@
+{
+    "name": "anibal/php-simple-dotenv",
+    "description": "PHP Script for get environment variables from an .env file and set on the php local environment",
+    "type": "library",
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.75",
+        "phpstan/phpstan": "^2.1",
+        "pestphp/pest": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anibal\\PhpSimpleDotenv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anibal Mendoza",
+            "email": "anibalmd32@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
