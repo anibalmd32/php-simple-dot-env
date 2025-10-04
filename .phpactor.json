@@ -1,0 +1,8 @@
+{
+  "project_root": ".",
+    "class_search": {
+        "exclude_patterns": ["vendor/*", "tests/*"]
+    },
+    "language_server_phpstan.enabled": true,
+    "language_server_php_cs_fixer.enabled": true
+}
